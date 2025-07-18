@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple File Host and Share</title>
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: #00ff00;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1 {
+            text-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+        }
+        form, div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input, button {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #00ff00;
+            color: #0d0d0d;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        input:hover, button:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 20px #00ff00, 0 0 40px #00ff00, 0 0 60px #00ff00;
+        }
+        #shareLink, #fileList {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #0d0d0d;
+            color: #00ff00;
+            border: 1px solid #00ff00;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Simple File Host and Share</h1>
+    <form id="uploadForm">
+        <input type="file" id="fileInput">
+        <button type="button" onclick="generateLink()">Upload File</button>
+    </form>
+    <div id="shareLink">
+        <p>Shareable Link:</p>
+        <input type="text" id="fileLink" readonly>
+    </div>
+    <div id="fileList">
+        <h2>Uploaded Files</h2>
+        <ul id="files"></ul>
+    </div>
+    <script>
+        let fileLinks = [];
+
+        function generateLink() {
+            const fileInput = document.getElementById('fileInput');
+            const file = fileInput.files[0];
+            if (file) {
+                const link = URL.createObjectURL(file);
+                fileLinks.push({ name: file.name, url: link });
+
+                document.getElementById('fileLink').value = link;
+                document.getElementById('shareLink').style.display = 'flex';
+                addFileToList(file.name, link);
+            } else {
+                alert('Please select a file to upload.');
+            }
+        }
+
+        function addFileToList(fileName, fileLink) {
+            const fileList = document.getElementById('files');
+            const listItem = document.createElement('li');
+            listItem.innerHTML = `
+                <strong>${fileName}</strong>
+                <br>
+                <a href="${fileLink}" target="_blank">View</a>
+                |
+                <a href="${fileLink}" download="${fileName}">Download</a>
+            `;
+            fileList.appendChild(listItem);
+            document.getElementById('fileList').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
+
