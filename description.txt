@@ -1,0 +1,163 @@
+Password Generator Project
+Objective: Create a web-based password generator that provides strong, randomly generated passwords with various customization options, a user-friendly interface, and additional features for enhanced user experience.
+
+Features:
+
+Customizable Password Length:
+
+Users can specify the desired length of the password using an input field, ranging from 8 to 100 characters.
+
+Character Set Selection:
+
+Users can choose the character set for the password:
+
+All characters (letters, digits, symbols)
+
+Letters and digits only
+
+Letters only
+
+Digits only
+
+Dark Mode Toggle:
+
+A button that allows users to switch between dark mode (default) and light mode for better visibility and comfort.
+
+Password Strength Indicator:
+
+Provides feedback on the strength of the generated password (Weak, Medium, Strong) based on criteria such as length, inclusion of uppercase letters, digits, and symbols.
+
+Copy to Clipboard:
+
+A button that allows users to copy the generated password to the clipboard with a single click, followed by a confirmation alert.
+
+Password History:
+
+Displays a history of passwords generated during the session, allowing users to refer back to previously generated passwords.
+
+Animations and Transitions:
+
+Smooth transition effects for background and text color changes to enhance the user experience.
+
+Technical Details:
+
+HTML Structure:
+
+The HTML structure includes input fields for password length and character set selection, buttons for generating the password, copying it to the clipboard, toggling dark mode, and a text area to display the generated password. There's also a section for displaying password strength and history.
+
+CSS Styling:
+
+The CSS provides a cyber-themed look with a dark background, neon-green text, and a monospaced font. It includes styles for buttons, text areas, and transitions for dark mode toggling.
+
+JavaScript Functions:
+
+generatePassword(): Generates a random password based on user-selected options and updates the text area.
+
+copyPassword(): Copies the generated password to the clipboard and shows an alert.
+
+checkStrength(): Evaluates the password strength and updates the indicator.
+
+addToHistory(): Adds the generated password to the history section.
+
+toggleDarkMode(): Toggles between dark mode and light mode by changing the background and text colors.
+
+This enhanced password generator project offers a robust, user-friendly tool for creating secure passwords. By incorporating customization options, a dark mode, a copy-to-clipboard feature, and password history, it provides an engaging and practical experience for users.
+
+
+Angry Droid AI
+Project making the world a better place
+email-
+angry-droid@offilive.com
+website-
+https://www.onworks.net/wordpress/angrydroids/...
+Project link-https://www.megadisk.net/cloud11/index.php/s/TpJVKdT1KV5ZOvC
+https://www.facebook.com/groups/1536979940448900/
+https://mastodon.social/@AngryDroid
+https://github.com/AngryDroidAI/Droid-os-/tree/main
+https://codepen.io/Chris-Berry/pen/rNRyBVY
+hosted-
+onworks.net/wordpress/angrydroids/
+https://angrydroidai.github.io/Droid-Radar/
+https://angrydroidai.github.io/watermark-maker-html/
+https://angrydroidai.github.io/-GalacticMayhem-NeonSkies.../
+https://angrydroidai.github.io/Droid-os-/
+https://angrydroidaiprojects.tiiny.site/
+https://share.imagica.ai/?q=49ac9f4d-6639-4fc8-9c94-761c252afd67
+https://angrydroidai.github.io/The-Fortune-Teller/
+
+ai projects 
+
+https://www.megadisk.net/cloud11/index.php/s/UT6jl7dy0jLbt8e
+
+angry droids games 
+
+https://www.megadisk.net/cloud11/index.php/s/VUPe9DKML4z53v5
+
+buddy 
+
+https://www.megadisk.net/cloud11/index.php/s/7qmMo9rDLCezqJf
+
+apk project 
+
+https://www.megadisk.net/cloud11/index.php/s/p3Xo0AKq8gGSBHn
+
+droid os
+https://www.megadisk.net/cloud11/index.php/s/TpJVKdT1KV5ZOvC
+
+droid radar
+
+https://www.megadisk.net/cloud11/index.php/s/3BIPR9NOlCJCeaI
+
+droid scanner 
+
+https://www.megadisk.net/cloud11/index.php/s/SyhVZfE9ptpnFm2
+
+droid terminal 
+
+https://www.megadisk.net/cloud11/index.php/s/7aNBl5Foh3vHcpj
+
+ghost search 
+
+https://www.megadisk.net/cloud11/index.php/s/DPtqjYJ20bXG0w6
+
+network scanner 
+
+https://www.megadisk.net/cloud11/index.php/s/SpwDoX1yUN1dl3D
+
+watermark maker
+
+https://www.megadisk.net/cloud11/index.php/s/iZRNpBUZGYM0fZp
+
+website blog 
+
+https://www.megadisk.net/cloud11/index.php/s/HtC0TYSC9DiEQnY
+
+websites up-to-date-sites
+
+https://discord.gg/mxfRYM9N
+
+https://www.onworks.net/wordpress/angrydroids/
+
+https://fortune-fairy.tiiny.site/
+
+Cyber utils kit 
+
+https://www.megadisk.net/cloud11/index.php/s/YhG9GVvhyZ2CCjd
+
+wifi grabber
+
+https://www.megadisk.net/cloud11/index.php/s/aC2Z6i0RRRnKwdT
+
+password genrator 
+
+https://www.megadisk.net/cloud11/index.php/s/9yrMjWQoVUg76H8
+
+
+Copyright (c) 2024 by Angry Droid 
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Copyright Protection and Individuality
+We acknowledge that the Angry Droid AI project is copyrighted and possesses its own unique code. The project's independence is valued, and we aim to continue its development
+
+
